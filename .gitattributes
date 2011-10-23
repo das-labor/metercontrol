@@ -1,5 +1,9 @@
 * text=auto !eol
 /can.py -text
 /create-rrd -text
+graphs/days.html -text
+graphs/hours.html -text
+graphs/minutes.html -text
+graphs/style.css -text
 /powermeterd -text
 /update-graphs -text
