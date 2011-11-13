@@ -1,7 +1,10 @@
 #!/bin/sh
 
-echo "Exiting for safty reasons! Running this script will DELETE ALL collected data"
-exit 0
+if test "x$1" != "x--really"; then
+    echo "Exiting for safty reasons! Running this script will DELETE ALL collected data"
+    echo "Run $0 --really to proceed..."
+    exit 1
+fi
 
 rrdtool create gateway.rrd \
 	-s 1 \
