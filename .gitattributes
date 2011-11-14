@@ -1,6 +1,7 @@
 * text=auto !eol
 /can.py -text
 /create-rrd -text
+/graph.cgi -text
 graphs/days.html -text
 graphs/hours.html -text
 graphs/minutes.html -text
