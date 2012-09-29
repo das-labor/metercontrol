@@ -13,6 +13,7 @@ graphs/machines-hours.html -text
 graphs/machines-minutes.html -text
 graphs/machines-months.html -text
 graphs/machines-weeks.html -text
+graphs/minutes-to-all.sh -text
 graphs/power-days.html -text
 graphs/power-hours.html -text
 graphs/power-minutes.html -text
